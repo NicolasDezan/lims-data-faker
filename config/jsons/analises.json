@@ -1,0 +1,14 @@
+{
+  "Microbiologia": {
+    "metodologias": ["ISO 6579", "APHA 9215", "AOAC 966.23"],
+    "resultados": ["Ausente", "Presente", "< 1 UFC/mL", "> 100 UFC/mL"]
+  },
+  "Metais Pesados": {
+    "metodologias": ["EPA 6020", "SM 3111", "ISO 17294"],
+    "resultados": ["0.001 mg/L", "0.05 mg/L", "5.2 mg/L", "Não Detectado"]
+  },
+  "Físico-Química": {
+    "metodologias": ["SM 4500", "ISO 6058", "APHA 2540"],
+    "resultados": ["pH 6.5", "Condutividade 250 µS/cm", "Turbidez 3.0 NTU"]
+  }
+}

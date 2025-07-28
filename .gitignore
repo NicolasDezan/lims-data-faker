@@ -1,0 +1,7 @@
+output/
+__pycache__/
+output/output_dir_map.txt
+.venv
+.idea
+
+*bkp*
