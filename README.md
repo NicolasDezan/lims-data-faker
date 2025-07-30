@@ -86,3 +86,4 @@ python -m src.main
 ---
 
 Feito por Nícolas Dezan dos Santos.
+Colaborado por Rian Dezan dos Santos.
