@@ -62,7 +62,7 @@ def gerar_analise(amostra_id: int,
 
     tipo = escolher_tipo_analise(tipo_material, config)
     metodologia = escolher_metodologia_analise(tipo, config)
-    resultado = gerar_resultado_analise(tipo, config)
+    resultado = gerar_resultado_analise(tipo, config) if status == "Concluído" else None
     data_conclusao = gerar_data_conclusao_analise(status, data_recepcao) if status == "Concluído" else None
 
     return Analise(
