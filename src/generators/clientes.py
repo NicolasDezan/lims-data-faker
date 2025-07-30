@@ -25,7 +25,8 @@ def gerar_cnpj_cliente():
     return f"{random.randint(10,99)}.{random.randint(100,999)}.{random.randint(100,999)}/0001-{random.randint(10,99)}"
 
 def gerar_email_cliente(nome: str):
-    return f"contato@{nome.lower().replace(' ', '')}.com.br"
+        dominio = random.choices([".com", ".com.br"], weights=[70, 30], k=1)[0]
+        return f"contato@{nome.lower().replace(' ', '')}{dominio}"
 
 
 # --- Gerador Principal ---
